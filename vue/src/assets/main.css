@@ -1,0 +1,121 @@
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.form_container .title p {
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.form_container {
+  width: 340px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container form {
+  width: 310px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F8FA;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.form_container label {
+  font-size: 13px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form_container input[type=text],
+.form_container input[type=password] {
+  width: 290px;
+  padding: 7px;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form_container a {
+  margin-left: 120px;
+}
+
+.form_container .forgot_password_link {
+  padding: 7px;
+  font-size: 8px;
+  text-decoration: none;
+}
+
+.form_container input[type=submit] {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #3d8c40;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 6px;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.form_container input[type=submit]:hover {
+  background-color: #218838;
+}
+
+.form_container .create_account_form {
+  width: 290px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 13px;
+  text-align: center;
+  font-family: Helvetica Neue, sans-serif;
+
+}
+
+.form_container .create_account_form p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.form_container .create_account_form a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.bottom_links {
+  display: flex;
+  margin-top: 70px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.bottom_links a {
+  margin: 0 10px;
+}
